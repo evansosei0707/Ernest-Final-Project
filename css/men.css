@@ -17,10 +17,20 @@ nav {
   margin: 0 10% 0 10%;
 }
 
+
+
 .row {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
+
+@media screen and (min-width: 768x) {
+  .row {
+    flex-direction: row;
+  }
+  
+}
+
 
 .col {
   width: 10%;

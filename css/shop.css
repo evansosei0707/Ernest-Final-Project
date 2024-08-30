@@ -117,3 +117,46 @@ section>h1 {
     height: 200px;
     object-fit: cover;
 }
+
+
+.collection {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .about_details {
+      flex-direction: column;
+      gap: 20px;
+    }
+  }
+
+  .col-1,
+  .col-2 {
+    width: 100%;
+  }
+
+  .best_sellers_layout {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 20px 0
+  }
+
+  .home_collection {
+    display: flex;
+  }
+
+  .collec {
+    margin-bottom:100px;
+    width: 100%;
+    border-bottom: 1px solid gray
+  }
+
+  @media screen and (max-width: 768px) {
+    .home_collection {
+      flex-direction: column;
+      gap: 20px;
+    }
+  }
+

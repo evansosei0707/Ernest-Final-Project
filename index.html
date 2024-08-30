@@ -2,12 +2,14 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Downy Shoes</title>
+    <title>Ernesto Shoes</title>
     <link rel="shortcut icon" type="image/x-icon" href="Images/img-DS.png" />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="css/navbar.css" />
+    <link rel="stylesheet" href="css/shop.css" />
+
     <link
       href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap"
       rel="stylesheet"
@@ -27,44 +29,41 @@
     <div class="se-pre-con"></div>
     <header id="home">
       <nav>
-        <ul>
-          <li class="primary-nav">
-            <img src="Images/img-DS.png" alt="logo" />
-            <a href="#home">DOWNY SHOES</a>
-          </li>
-          <li class="secondary-nav">
-            <a href="HTML/checkout.html">
-              <i class="fas fa-shopping-cart"></i> CART
-            </a>
-          </li>
-          <li class="secondary-nav">
-            <a href="./HTML/features.html">DESIGN SUMMARY</a>
-          </li>
-          <li class="secondary-nav">
+        <!--Store logo here -->
+        <div class="nav_logo">
+          <img src="Images/img-DS.png" width="50px" alt="logo" />
+          <a href="#home">ERNESTO SHOES</a>
+        </div>
+        <!-- Nav Links here -->
+         <div class="right_nav">
+        <div class="nav_links">
+          <p class="secondary-nav">
+            <a href="HTML/about-us.html">ABOUT ERNESTO</a>
+          </p>
+          <p class="secondary-nav"><a href="HTML/men.html">MEN</a></p>
+          <p class="secondary-nav"><a href="HTML/women.html">WOMEN</a></p>
+          <p class="secondary-nav">
             <a href="./HTML/about-me.html">ABOUT ME</a>
-          </li>
+          </p>
+          <p class="secondary-nav">
+            <a href="./HTML/features.html">DESIGN SUMMARY</a>
+          </p>
+        </div>
 
-          <li class="secondary-nav"><a href="HTML/women.html">WOMEN</a></li>
-          <li class="secondary-nav"><a href="HTML/men.html">MEN</a></li>
-          <li class="secondary-nav">
-            <a href="HTML/about-us.html">ABOUT DOWNY</a>
-          </li>
-        </ul>
+          <a class="nav_cart" href="HTML/checkout.html">
+            <i class="fas fa-shopping-cart"></i> 
+            <p>CART</p>
+          </a>
+      </div>
       </nav>
       <div class="pxtext">
-        <span class="border">
-          Nike Air Jordan
-        </span>
+        <span class="border"> Nike Air Jordan </span>
         <p><a href="HTML/men.html">Shop Now</a></p>
       </div>
     </header>
     <section>
-      <div
-        class="row"
-        style="width: 80%;
-      margin: 0 auto;"
-      >
-        <div class="col">
+      <div class="home_collection collec"  style="width: 80%; display: flex; margin: 0 auto">
+        <div class="col col-1">
           <div class="overlay-image">
             <a href="HTML/men.html">
               <img class="image" src="./Images/img-men6.jpg" alt="Alt text" />
@@ -82,7 +81,7 @@
             </a>
           </div>
         </div>
-        <div class="col">
+        <div class="col col-2">
           <div class="overlay-image">
             <a href="HTML/women.html">
               <img
@@ -106,13 +105,9 @@
         </div>
       </div>
     </section>
-    <section class="preview">
+    <section class="preview best_sellers">
       <h2 align="center">Best Sellers</h2>
-      <div
-        class="row"
-        style="  width: 80%;
-      margin: 0 auto;"
-      >
+      <div class="row best_sellers_layout home_collection" style="width: 80%; margin: 0 auto">
         <figure class="item">
           <a href="HTML/info.html">
             <img src="./Images/img-Nike1.jpg" alt="" width="100%" />
@@ -140,14 +135,12 @@
       </div>
     </section>
 
-    <h3 style="text-align: center">
-      <a href="./HTML/survey.html">Click here to take a quick survey</a>
-    </h3>
+
 
     <footer>
       <div class="row foot">
         <div class="col">
-          <h1>Downy Shoes</h1>
+          <h1>Ernesto Shoes</h1>
           <p>
             Official <a href="https://www.nike.com/xf/en_gb/">Nike</a> Partner
           </p>
@@ -158,46 +151,42 @@
             <li><a href="./HTML/shop.html">Catalog</a></li>
 
             <li><a href="./HTML/Contact-us.html">Contact us</a></li>
-            <li><a href="./HTML/survey.html">Take a survey</a></li>
             <li>
               <a href="./HTML/terms-and-conditions.html"
                 >Terms and conditions</a
               >
-            </li>
-            <li>
-              <a href="./HTML/refund-policy.html">Refund Policy</a>
             </li>
           </ul>
         </div>
         <div class="col">
           <h2>
             Copyright <sup>©</sup>
-            <a href="https://www.codepen.io/jeetg57" target="_blank"
-              >Jeet Gohil</a
+            <a href="https://www.codepen.io" target="_blank"
+              >Ernest Boateng</a
             >
           </h2>
         </div>
       </div>
     </footer>
     <footer id="footer-social">
-      <ul class="row foot-icons" style="list-style-type: none;">
+      <ul class="row foot-icons" style="list-style-type: none">
         <li>
-          <a href="https://twitter.com/JeetGohil_" target="_blank">
+          <a href="https://twitter.com/ernest_wood" target="_blank">
             <i class="fab fa-twitter fa-3x"></i>
           </a>
         </li>
         <li>
-          <a href="https://www.facebook.com/MarioJT99" target="_blank">
+          <a href="https://www.facebook.com" target="_blank">
             <i class="fab fa-facebook fa-3x"></i>
           </a>
         </li>
         <li>
-          <a href="https://www.codepen.io/jeetg57" target="_blank">
+          <a href="https://www.codepen.io" target="_blank">
             <i class="fab fa-codepen fa-3x"></i>
           </a>
         </li>
         <li>
-          <a href="https://github.com/Jeetg57" target="_blank">
+          <a href="https://github.com" target="_blank">
             <i class="fab fa-github fa-3x"></i>
           </a>
         </li>
